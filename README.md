@@ -17,8 +17,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
--  [Solution URL](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-rpSsxjlW2r)
--  [Live Site URL](https://liam-mcleod.github.io/FrontEndMentor-newsletter-sign-up/)
+-  [Solution URL](https://www.frontendmentor.io/solutions/age-calculator-app-otqwzMQoN-)
+-  [Live Site URL](https://liam-mcleod.github.io/age-calculator-app-main/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
