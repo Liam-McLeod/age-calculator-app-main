@@ -1,0 +1,141 @@
+:root {
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+
+    --default-font-family: 'Poppins', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--default-font-family);
+    height: 100vh;
+    margin: 4rem 1rem;
+    background-color: var(--Off-white);
+}
+
+main {
+    background-color: var(--White);
+    border-radius: 1rem 1rem 5.5rem 1rem;
+    padding: 3rem 1.5rem;
+    max-width: 52rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 0.5px solid var(--Light-grey);
+    padding-bottom: 3.5rem;
+}
+
+form p {
+    letter-spacing: 3px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--Smokey-grey);
+}
+
+form input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 0.5px solid var(--Light-grey);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+button {
+    position: relative;
+    left: 7.5rem;
+    top: -1.8rem;
+    border: none;
+    border-radius: 100%;
+    padding: 1rem;
+    background-color: var(--Purple);
+}
+
+button img {
+    width: 1.5rem;
+}
+
+
+.results h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: var(--fw-extrabold);
+    font-style: italic;
+}
+.results span {
+    color: var(--Purple);
+}
+
+/* Error Message only shown on error */
+.error-msg {
+    color: var(--Light-red);
+    font-style: italic;
+    font-size: 0.5rem;
+}
+
+@media (min-width: 700px) {
+    body {
+        display: grid;
+        place-items: center;
+    }
+
+    main {
+        padding: 3rem;
+        border-radius: 1rem 1rem 8rem 1rem;
+    }
+
+    form {
+        gap: 2rem;
+    }
+
+    form div {
+        width: 21%;
+    }
+
+    form input {
+        font-size: 2rem;
+        padding-left: 1.2rem;
+    }
+
+    button {
+        left: 40rem;
+        padding:1.5rem;
+        top: -3rem;
+    }
+
+    button img {
+        width: 3rem;
+    }
+
+    .results h1 {
+        font-size: 6rem;
+    }
+
+}
